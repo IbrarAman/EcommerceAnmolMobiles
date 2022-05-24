@@ -473,6 +473,13 @@ p:last-child {
 /* desktop only */
 /* desktop only .end */
 /* ================ SECTION-FOOTER ==================  */
+.section-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100;
+  background-color: green;
+}
 .section-footer ul li {
   margin-bottom: 5px;
 }
