@@ -211,8 +211,7 @@ def order_complete(request):
             'order_number': order.order_number,
             # 'payment': payment,
             'subtotal': subtotal,
-            # 'tax' : tax,
-            # 'grand_total' : grand_total
+            
         }
         return render(request, 'orders/order_complete.html', context)
     except Order.DoesNotExist:
